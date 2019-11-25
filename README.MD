@@ -1,3 +1,3 @@
 ## php-router
-# http://dvisign.com/php-router/index
-# http://dvisign.com/php-router/about
+1) http://dvisign.com/php-router/index
+2) http://dvisign.com/php-router/about
