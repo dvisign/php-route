@@ -2,9 +2,10 @@
 
   RewriteEngine On
   RewriteBase /php-router/
+  RewriteRule ^index\.php$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . /php-router/index.php [L]
 
-  RewriteRule . /php-router/index.php?page=$1&conts=$2 [QSA]
 </IfModule>
