@@ -8,6 +8,9 @@ $requestArr = array(
 );
 $params = $requestArr["params"];
 switch ($requestArr["page"]) {
+  case '' :
+    require __DIR__ . '/views/index.php';
+    break;
   case 'index' :
     require __DIR__ . '/views/index.php';
     break;
